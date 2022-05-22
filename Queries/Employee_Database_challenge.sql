@@ -1,10 +1,7 @@
 -- Use Dictinct with Orderby to remove duplicate rows
-SELECT DISTINCT ON (______) _____,
-______,
-______,
-______
+SELECT DISTINCT ON (employees) first_name,last_name,
 
-INTO nameyourtable
+INTO retirements_main_table
 FROM _______
 WHERE _______
 ORDER BY _____, _____ DESC;
